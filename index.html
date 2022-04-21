@@ -104,23 +104,17 @@ footer {
 
 <script>
 
-var y = prompt("Zadej ČÍSLO")
+var x = prompt('Zadej číslo s více ciframi');
 
-count(y)
+var y = 0;
 
-function count(n) {
-  var count = 0;
-  if (n >= 1) ++count;
-
-  while (n / 10 >= 1) {
-    n /= 10;
-    ++count;
-  }
-
-  return count;
+while (x != 0) {
+  y = y + (x % 10);
+  
+  x = parseInt(x / 10);
 }
+console.log(y)
 
-console.log(count(y));
 
 
 </script>
