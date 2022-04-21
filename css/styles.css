@@ -1,0 +1,18 @@
+img {
+    width: 367px;
+    height: 247px;
+    object-fit: cover;
+    float: center;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: green;
+}
+
+.footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
