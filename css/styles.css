@@ -1,0 +1,15 @@
+img {
+    width: 300px;
+    margin: 5px;
+}
+
+.navbar a:hover {
+    color: green !important;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
